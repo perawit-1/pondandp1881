@@ -54,7 +54,7 @@
     // ====== MQTT Config ======
     const mqttHost = "broker.hivemq.com";
     const mqttPort = 8000; // WebSocket port
-    const mqttTopic = "tmjs/mqtt/prediction";
+    const mqttTopic = "longhead";
     const clientId = "tmjs_" + Math.floor(Math.random() * 1000000);
 
     const mqttClient = new Paho.MQTT.Client(mqttHost, mqttPort, clientId);
@@ -143,5 +143,6 @@
   </script>
 </body>
 </html>
+
 
 
